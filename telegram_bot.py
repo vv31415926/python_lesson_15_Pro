@@ -36,7 +36,7 @@ def is_registration( bot : telebot.TeleBot, message : telebot.types.Message):
 plans = Plans()
 bot_handler = BotHandler()
 
-TOKEN = '2092869156:AAHxWOdhnufE8dB1a46fnQVnmbnSMHVoMDc'   # занятия
+TOKEN = '*'   # занятия
 
 # экземпляр класса Telebot
 bot = telebot.TeleBot( TOKEN, parse_mode=None )
